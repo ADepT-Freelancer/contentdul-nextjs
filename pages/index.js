@@ -1,9 +1,4 @@
-import Image from "next/image";
-import { Inter } from "next/font/google";
-
-const inter = Inter({ subsets: ["latin"] });
-
-export default function Home() {
+function Home() {
   return (
     <main
       className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}
@@ -27,7 +22,7 @@ export default function Home() {
       <br />
       Na-na-na-na-na
       <br />
-      let`s go to original -{" "}
+      let`s go to original - {" "}
       <a href="https://music.youtube.com/channel/UConl7T_sh6sQCwYe8WrQNbQ">
         Peggi Gou
       </a>{" "}
@@ -35,3 +30,5 @@ export default function Home() {
     </main>
   );
 }
+
+export default Home;
