@@ -27,6 +27,11 @@ export default function Home() {
       <br />
       Na-na-na-na-na
       <br />
+      let`s go to original -{" "}
+      <a href="https://music.youtube.com/channel/UConl7T_sh6sQCwYe8WrQNbQ">
+        Peggi Gou
+      </a>{" "}
+      `
     </main>
   );
 }
